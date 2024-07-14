@@ -13,7 +13,4 @@ public class Appointment {
         this.reason = reason;
         this.patient = patient;
     }
-
-    // Getters and Setters
-    // Implement as needed
 }
