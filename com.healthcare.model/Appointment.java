@@ -13,4 +13,30 @@ public class Appointment {
         this.reason = reason;
         this.patient = patient;
     }
+
+    // Getters
+    public LocalDateTime getDateTime() {
+        return dateTime;
+    }
+
+    public String getReason() {
+        return reason;
+    }
+
+    public Patient getPatient() {
+        return patient;
+    }
+
+    // Setters
+    public void setDateTime(LocalDateTime dateTime) {
+        this.dateTime = dateTime;
+    }
+
+    public void setReason(String reason) {
+        this.reason = reason;
+    }
+
+    public void setPatient(Patient patient) {
+        this.patient = patient;
+    }
 }
