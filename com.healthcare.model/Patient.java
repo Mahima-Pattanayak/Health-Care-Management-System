@@ -13,7 +13,4 @@ public class Patient {
         this.email = email;
         this.phoneNumber = phoneNumber;
     }
-
-    // Getters and Setters
-    // Implement as needed
 }
